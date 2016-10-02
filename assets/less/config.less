@@ -1,0 +1,96 @@
+/**
+ * @desc         Configuration LESS & import de fichiers
+ * @name         config.less
+ * @author       KB, MM
+ */
+
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+// Couleurs
+@color-primary: #2bb24c;
+@color-secondary: #333;
+@color-muted: #898989;
+@color-note: #666;
+@color-text: #343434;
+
+@color-bg: #efefef;
+@color-bg-darken: #dedede;
+
+@color-border: #dedede;
+@color-link-default: @color-primary;
+@color-link-visited: #444;
+@color-link-hover: @color-secondary;
+@color-link-active: @color-secondary;
+@color-selection: #b3d4fc;
+
+// Notices
+@color-notice: #999;
+@color-info: #5bc0de;
+@color-success: #5cb85c;
+@color-error: #d9534f;
+@color-warning: #f0ad4e;
+
+// Typographie
+@base-font-weight: normal;
+@base-fontsize: 16;
+@base-fontsize-computed: @base-fontsize / 16em;
+@base-lineheight: 1.4;
+@v-align: 50px;
+@padding-base-vertical: 8px;
+@padding-base-horizontal: 18px;
+
+// Titres
+@color-h1: @color-text;
+@color-h2: @color-primary;
+@color-h3: @color-text;
+@color-h4: @color-text;
+
+@fontsize-h1: 30;
+@fontsize-h2: 32;
+@fontsize-h3: 20;
+@fontsize-h4: 16;
+
+// Forms/buttons
+@input-padding-horizontal: 30px;
+@input-padding-vertical: 12px;
+@input-height: 42px;
+
+// Grille
+@grid-columns: 12;
+@grid-gutter: 24px;
+
+// Responsive
+@smallscreen-max: 1100px;
+@tablet-max: 1024px;
+@smartphone-max: 768px;
+@smartphone-small-max: 479px;
+
+@menu-closed: 60px;
+@menu-opened: 300px;
+@color-bg-menu: #232323;
+
+/* ==========================================================================
+   FONTS
+   ========================================================================== */
+@fontFallback: Helvetica, Arial, sans-serif;
+@font-primary-normal: JosefinSans;
+@font-primary-bold: JosefinSansBold;
+
+/* ==========================================================================
+   FILES
+   ========================================================================== */
+@import url("common/mixins");
+@import url("common/normalize");
+@import url("base");
+@import url("states");
+@import url("layout");
+@import url("modules/btn");
+@import url("modules/nav");
+@import url("modules/form");
+@import url("modules/feed");
+@import url("modules/list");
+@import url("modules/title");
+@import url("modules/overlay");
+@import url("modules/progress");
+

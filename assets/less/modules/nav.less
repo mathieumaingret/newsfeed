@@ -1,0 +1,93 @@
+/**
+ * Styleguide Navigation
+ * @desc         Module navigation (menu principal, secondaire)
+ * @name         nav.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+/* ==========================================================================
+   Navigation principale
+   ========================================================================== */
+.nav {
+	margin-bottom: @v-align/2;
+	.font-size(15);
+
+	a {
+		display: block;
+		color: rgba(255, 255, 255, .5);
+
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	.nav-item {
+		position: relative;
+
+		& > a {
+			padding: 5px 0;
+			font-weight: bold;
+		}
+	}
+
+	.nav-sub {
+		padding-left: 20px;
+		overflow: hidden;
+		max-height: 0;
+		transition: .4s;
+
+		a {
+			padding: 3px 0;
+		}
+
+		& > li:last-child {
+			margin-bottom: 15px;
+		}
+	}
+
+	.is-active {
+		& > a {
+			color: @color-primary;
+		}
+		& > .nav-sub {
+			max-height: 500px;
+		}
+	}
+}
+
+
+.nav--main {
+	.nav-item {
+		& + .nav-item {
+			border-top: 1px solid rgba(255, 255, 255, .15);
+		}
+		& > a {
+			padding: 15px 0;
+			text-transform: lowercase;
+		}
+	}
+}
+
+
+/* ==========================================================================
+   Fil d'ariane
+   ========================================================================== */
+/*
+<div class="nav-breadcrumb">
+    <ol>
+        <li><a href="">Accueil</a><span class="breadcrumb-separator"><span class="icon icon-arrow-right"></span></span></li>
+        <li> <a href="">Parent</a><span class="breadcrumb-separator"><span class="icon icon-arrow-right"></span></span></li>
+        <li class="current-item"> Current</li>
+    </ol>
+</div>
+ 
+Styleguide Navigation - 2. Fil d'ariane
+*/
+.nav--breadcrumb {
+
+}
+
+
+

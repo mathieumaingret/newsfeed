@@ -1,0 +1,67 @@
+/**
+ * Styleguide Messages
+ * @desc         Module title
+ * @name         title.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+/* ==========================================================================
+   TITRES
+   ========================================================================== */
+h1,
+h2,
+h3,
+h4,
+.title--h1,
+.title--h2,
+.title--h3,
+.title--h4 {
+    line-height: 1.15;
+    margin: 0 0 @v-align / 2;
+    font-weight: normal;
+}
+
+h1,
+.title--h1 {
+    color: @color-h1;
+    .font-size(@fontsize-h1);
+    font-weight: bold;
+}
+h2,
+.title--h2 {
+    color: @color-h2;
+    .font-size(@fontsize-h2);
+    font-weight: bold;
+
+    span {
+        display: block;
+    }
+}
+h3,
+.title--h3 {
+    color: @color-h3;
+    .font-size(@fontsize-h3);
+}
+h4,
+.title--h4 {
+    color: @color-h4;
+    .font-size(@fontsize-h4);
+}
+
+
+
+hgroup {
+    margin-bottom: @v-align;
+
+    h1 {
+        margin-bottom: 5px;
+        color: #fff;
+    }
+    h2 {
+        color: inherit;
+        font-weight: normal;
+        .font-size(18);
+    }  
+}

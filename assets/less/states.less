@@ -1,0 +1,43 @@
+/**
+ * @desc         Styles des états généraux
+ * @name         states.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+.is-visuallyHidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+}
+
+// Détermine si l'élement est pour le mobile
+.is-mobile {
+    display: none !important;
+
+	@media screen and (max-width: @smartphone-max) {
+        display: block !important;
+    }
+}
+
+.l-overlay {
+	cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+
+body.is-available {
+    overflow: auto;
+    
+    .overlay,
+    .progress {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

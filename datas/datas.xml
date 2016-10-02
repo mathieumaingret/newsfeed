@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss>
+	<channel>
+		<item>
+			<url_feed>http://www.awwwards.com/feed</url_feed>
+			<url_website>http://www.awwwards.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>awward</id>
+			<title>Awwwards</title>
+			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/codyhouse/feeds</url_feed>
+			<url_website>https://codyhouse.co/</url_website>
+			<nb_posts>3</nb_posts>
+			<id>codyhouse</id>
+			<title>CodyHouse</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds2.feedburner.com/tympanus?format=xml</url_feed>
+			<url_website>http://tympanus.net/codrops/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>codrops</id>
+			<title>Codrops</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>content:encoded</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/blogduwebdesign/articles?format=xml</url_feed>
+			<url_website>http://www.blogduwebdesign.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>blogwebdesign</id>
+			<title>Blog du Webdesign</title>
+			<type>tutorials</type>
+			<methods>
+				<item>entry</item>
+				<title>title</title>
+				<date>updated</date>
+				<description>summary</description>
+				<link>link['href']</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/CssTricks</url_feed>
+			<url_website>https://css-tricks.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>csstricks</id>
+			<title>CSS Tricks</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>content:encoded</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://www.csswinner.com/feed</url_feed>
+			<url_website>http://www.csswinner.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>csswinner</id>
+			<title>CSS Winner</title>
+			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/cssda-websites-of-the-day</url_feed>
+			<url_website>http://www.cssdesignawards.com</url_website>
+			<nb_posts>7</nb_posts>
+			<id>cssday</id>
+			<title>CSS Design Awwards</title>
+			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/webdesignernews</url_feed>
+			<url_website>http://www.webdesignernews.com/</url_website>
+			<nb_posts>11</nb_posts>
+			<id>webdesignernews</id>
+			<title>Webdesigner News</title>
+			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://www.webdesignertrends.com/feed/</url_feed>
+			<url_website>http://www.webdesignertrends.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>webdesignertrends</id>
+			<title>Webdesigner Trends</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>content:encoded</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds2.feedburner.com/webdesignerdepot</url_feed>
+			<url_website>http://www.webdesignerdepot.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>webdesignerdepot</id>
+			<title>Webdesigner Depot</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>content:encoded</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://www.alsacreations.com/rss/actualites.xml</url_feed>
+			<url_website>http://www.alsacreations.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>alsacreations</id>
+			<title>AlsaCreations</title>
+			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+
+		<item>
+			<url_feed>http://www.frenchdesignindex.com/rss.php</url_feed>
+			<url_website>http://www.frenchdesignindex.com</url_website>
+			<nb_posts>7</nb_posts>
+			<id>frenchdesignindex</id>
+			<title>French Design Index</title>
+			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://www.siteinspire.com/websites/feed</url_feed>
+			<url_website>http://www.siteinspire.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>siteinspire</id>
+			<title>Site Inspire</title>
+			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/wdinspi?format=xml</url_feed>
+			<url_website>http://www.webdesign-inspiration.com/</url_website>
+			<nb_posts>7</nb_posts>
+			<id>webdesigninspiration</id>
+			<title>Web Design Inspiration</title>
+			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>https://frontendfront.com/feed/stories</url_feed>
+			<url_website>https://frontendfront.com/</url_website>
+			<nb_posts>11</nb_posts>
+			<id>frontendfront</id>
+			<title>Front End Front</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://sidebar.io/feed.xml</url_feed>
+			<url_website>http://sidebar.io</url_website>
+			<nb_posts>7</nb_posts>
+			<id>sidebar</id>
+			<title>Sidebar</title>
+			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/ModernWebHQ</url_feed>
+			<url_website>https://modernweb.com</url_website>
+			<nb_posts>7</nb_posts>
+			<id>modernweb</id>
+			<title>MordernWeb</title>
+			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/webcomponentsorg/articles?format=xml</url_feed>
+			<url_website>http://webcomponents.org</url_website>
+			<nb_posts>7</nb_posts>
+			<id>webcomponents</id>
+			<title>WebComponents</title>
+			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://html5gamedevelopment.com/feed/</url_feed>
+			<url_website>http://html5gamedevelopment.com</url_website>
+			<nb_posts>7</nb_posts>
+			<id>html5gamedevelopment</id>
+			<title>HTML5 Development</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+		<item>
+			<url_feed>http://feeds.feedburner.com/DeveloperDrive?format=xml</url_feed>
+			<url_website>http://www.developerdrive.com</url_website>
+			<nb_posts>7</nb_posts>
+			<id>developerdrive</id>
+			<title>Developer Drive</title>
+			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+
+	</channel>
+</rss>

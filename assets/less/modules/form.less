@@ -1,0 +1,80 @@
+/**
+ * Styleguide Formulaire
+ * @desc         Module formulaire
+ * @name         form.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+/*
+Champs de base d'un formulaire
+
+Styleguide Formulaire - 1. Champs de base
+*/
+form,
+fieldset,
+.form-group {
+    margin-bottom: @v-align / 2;
+}
+form {
+    position: relative;
+    .font-size(15);
+}
+.form-item {
+    margin-bottom: @v-align / 4;
+}
+
+/* Champs
+   ========================================================================== */
+textarea,
+select,
+.customform-selectLabel,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="number"] {
+    padding: 0 @padding-base-horizontal;
+    height: @input-height;
+    width: 100%;
+    color: #000;
+    border: 1px solid @color-border;
+    background-color: @color-bg;
+    box-sizing: border-box;
+
+    &[disabled],
+    &:disabled {
+        .opacity(.5);
+        cursor: default;
+    }
+
+    &:focus {
+        border-color: @color-primary;
+        outline: 0;
+    }
+}
+
+/* ==========================================================================
+   Labels
+   ========================================================================== */
+label {
+    display: inline-block;
+    color: @color-muted;
+    cursor: pointer;
+}
+
+
+/* ==========================================================================
+   Form search
+   ========================================================================== */
+.form--search {
+    input {
+        background-color: rgba(255, 255, 255, .07);
+        border: none;
+        color: inherit;
+        font-weight: bold;
+    }
+}

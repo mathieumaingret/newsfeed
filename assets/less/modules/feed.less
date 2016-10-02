@@ -1,0 +1,29 @@
+.feed {
+    clear: both;
+    display: none;
+
+    &:nth-child(odd) {
+        background-color: @color-bg;
+    }
+    &:nth-child(even) {
+        background-color: @color-bg-darken;
+    }
+
+    .row {
+        padding-top: @v-align;
+        padding-bottom: @v-align;
+    }
+
+    .feed-title {
+        margin-bottom: @v-align*2/3;
+    }
+    .feed-footer {
+        margin-top: @v-align/2;
+        clear: both;
+        text-align: center;
+    }
+
+    &.is-visible {
+        display: block;
+    }
+}

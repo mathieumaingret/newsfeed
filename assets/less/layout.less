@@ -1,0 +1,121 @@
+/**
+ * @desc         Styles généraux d'agencement des modules CSS
+ * @name         layout.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+/* ==========================================================================
+   GLOBAL
+   ========================================================================== */
+.row {
+    position: relative;
+    width: 100%;
+    padding-left: @grid-gutter;
+    padding-right: @grid-gutter;
+    max-width: (@smallscreen-max + @grid-gutter*2);
+    margin: 0 auto;
+    .box-sizing();
+
+    @media screen and (max-width: @smartphone-max) {
+        padding-left: @grid-gutter/2;
+        padding-right: @grid-gutter/2;
+    }
+}
+
+/* Type de layout
+   ========================================================================== */
+.page {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.l-wrapper {
+    .col-wrapper();
+}
+.l-half {
+    .col-item();
+    .col(@columns: 6, @margin-bottom: 0);
+    .col-tablet(@columns: 6, @margin-bottom: 0);
+    .col-smartphone(@columns: 12, @margin-bottom: 0);
+}
+.l-third {
+    .col-item();
+    .col(@columns: 4, @margin-bottom: 0);
+    .col-tablet(@columns: 6, @margin-bottom: 0);
+    .col-smartphone(@columns: 12, @margin-bottom: 0);
+}
+.l-quarter {
+    .col-item();
+    .col(@columns: 3, @margin-bottom: 0);
+    .col-tablet(@columns: 6, @margin-bottom: 0);
+    .col-smartphone(@columns: 12, @margin-bottom: 0);
+}
+
+
+
+.main-part {
+    position: relative;
+}
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+.mainHeader {
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: @menu-closed;
+    overflow: scroll;
+    background-color: @color-bg-menu;
+    color: rgba(255,255,255,.8);
+    transition: .4s;
+
+    &-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: @menu-opened;
+        padding: @grid-gutter*1.5 0 @grid-gutter @menu-closed;
+        border-top: 5px solid @color-primary;
+        box-sizing: border-box;
+        transition: .4s;
+    }
+
+    &:hover {
+        width: @menu-opened;
+
+        .mainHeader-inner {
+            padding-left: @grid-gutter;
+            padding-right: @grid-gutter;
+        }
+
+        & + .mainContent {
+            left: @menu-opened - @menu-closed;
+            opacity: .8;
+        }
+    }
+}
+
+
+/* CONTENT
+   ========================================================================== */
+.mainContent {
+    left: 0;
+    padding-left: @menu-closed;
+    opacity: 1;
+    transition: .4s;
+}
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.mainFooter {
+}

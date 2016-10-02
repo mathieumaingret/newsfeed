@@ -1,0 +1,85 @@
+/**
+ * @desc         Styles des balises HTML
+ * @name         base.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+/* ==========================================================================
+   GLOBAL
+   ========================================================================== */
+body {
+    overflow: hidden;
+    line-height: @base-lineheight;
+    color: @color-text;
+    font-size: @base-fontsize-computed;
+    letter-spacing: .03em;
+    background: @color-bg;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    color: @color-link-default;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: @color-link-hover;
+    }
+}
+
+p,
+ul,
+ol,
+blockquote,
+table,
+iframe,
+video,
+audio,
+address {
+    margin: 0;
+
+    + h2,
+    + h3,
+    + h4,
+    + .title-h2,
+    + .title-h3,
+    + .title-h4 {
+        margin-top: @v-align;
+    }
+}
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+blockquote {
+    margin: @v-align 0;
+    padding: @v-align @grid-gutter @v-align/2;
+
+    p {
+        margin: 0;
+    }
+}
+
+fieldset {
+    border: none;
+}
+
+
+/* ==========================================================================
+   TABLE
+   ========================================================================== */
+table {
+    width: 100%;
+    border: 1px solid @color-border;
+    
+    th,
+    td {
+        padding: @padding-base-vertical @padding-base-horizontal;
+        border: 1px solid @color-border;
+    }
+}

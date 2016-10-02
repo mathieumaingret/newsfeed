@@ -1,0 +1,89 @@
+/**
+ * Styleguide Liste d'items
+ * @desc         Module de liste
+ * @name         list.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+.list {
+	.col-wrapper();
+}
+
+.list-item {
+	position: relative;
+
+	.item-image {
+		position: relative;
+		line-height: 0;
+	}
+
+		img {
+			max-width: 100%;
+		}
+}
+
+
+.list--posts {
+	letter-spacing: -.3em;
+
+	.list-item {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: @grid-gutter;
+		letter-spacing: 0;
+
+		.item-wrapper {
+			position: relative;
+
+			&:hover {
+				.item-image {
+					div {
+						opacity: 1;
+						transform: scale(1);
+						filter: grayscale(0);
+					}
+				}
+				.item-title {
+					color: @color-primary;
+				}
+			}
+		}
+
+		.item-image {
+			margin-bottom: @grid-gutter/2;
+			border: 1px solid @color-border;
+			background-color: @color-border;
+			overflow: hidden;
+
+			div {
+				padding-bottom: 60%;
+				background: url("../images/default.gif") no-repeat center top;
+				background-size: cover;
+				opacity: .8;
+				transform: scale(1.05);
+				filter: grayscale(60%);
+				transition: .3s;
+			}
+		}
+
+		.item-title {
+			margin-bottom: 0;
+			transition: .2s;
+		}
+
+		.item-date {
+			color: @color-muted;
+			.font-size(12);
+			font-weight: bold;
+		}
+
+		&.l-quarter {
+			.item-header {
+				font-size: .9em;
+			}
+		}
+	}
+}

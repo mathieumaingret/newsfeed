@@ -1,0 +1,68 @@
+/**
+ * Styleguide Boutons
+ * @desc         Module boutons
+ * @name         btn.less
+ * @author       KB, MM
+ * @tested       Firefox
+ * @requires     config.less
+ */
+
+/*
+Style générique des boutons de mon site
+
+Markup: <button class="btn $modifierClass">Bouton</button>
+
+:hover, :focus, :active - Bouton au survol
+:disabled               - Bouton désactivé
+ 
+Styleguide Boutons - 1. Bouton standard
+*/
+.btn,
+input[type="submit"],
+input[type="button"] {
+    position: relative;
+    display: inline-block;
+    padding: @input-padding-vertical @input-padding-horizontal;
+    line-height: 1.1;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: @color-muted;
+    border: 1px solid @color-border;
+    text-transform: uppercase;
+    .font-size(13);
+    font-weight: bold;
+    letter-spacing: .05em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    box-sizing: border-box;
+
+    &:focus,
+    &:active,
+    &:hover,
+    .l-overlay:hover & {
+        background: @color-primary;
+    }
+    
+    &[disabled],
+    &:disabled {
+        .opacity(.5);
+        cursor: default;
+    }
+
+    & + & {
+        margin-left: @padding-base-horizontal;
+    }
+}
+
+
+.btn--more {
+    background-color: #2bb24c;
+    border-color: #2bb24c;
+
+    &:hover {
+        background-color: darken(#2bb24c, 7%);
+        border-color: darken(#2bb24c, 7%);
+    }
+}
