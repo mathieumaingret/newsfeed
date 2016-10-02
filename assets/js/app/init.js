@@ -70,7 +70,7 @@
             $.ajax( {
                 type: "GET",
                 url: "app/getFeedDatas.php",
-                cache: true,
+                cache: false,
                 data: { feedID : feedID },
 
                 success: function(result) {

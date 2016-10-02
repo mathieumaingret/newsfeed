@@ -54,9 +54,9 @@
 
 	<div id="progress" class="progress"></div>
 
-	<script defer async src="assets/js/jquery-3.1.0.min.js"></script>
-	<script defer async src="assets/js/app/init.js"></script>
-	<script defer async src="assets/js/app/behaviors.js"></script>
+	<script src="assets/js/jquery-3.1.0.min.js"></script>
+	<script src="assets/js/app/init.js"></script>
+	<script src="assets/js/app/behaviors.js"></script>
 	
 </body>
 </html>

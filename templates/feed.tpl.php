@@ -17,20 +17,26 @@
 		<h2 class="feed-title">
 			<a href="<?php echo $url; ?>" target="_blank"><?php echo $title; ?></a>
 		</h2>
-		
-		<ul class="feed-posts list list--posts">
-			<?php foreach ($posts as $postID => $post): ?>
-				<?php 
-					$attributes = array(
-						'id' => $postID
-					);
-					echo App::render('post', $post, $attributes);
-				?>
-			<?php endforeach; ?>
-		</ul>
 
-		<footer class="feed-footer">
-			<button class="btn btn--more">More</button>
-		</footer>
+		<?php if (is_array($posts)): ?>
+			<ul class="feed-posts list list--posts">
+				<?php foreach ($posts as $postID => $post): ?>
+					<?php 
+						$attributes = array(
+							'id' => $postID
+						);
+						echo App::render('post', $post, $attributes);
+					?>
+				<?php endforeach; ?>
+			</ul>
+			<footer class="feed-footer">
+				<button class="btn btn--more">More</button>
+			</footer>
+
+		<?php else: ?>
+			<p>An error occured.</p>
+			<p>Check manually <a href="<?php echo $entity->getUrlDiffusion(); ?>" target="_blank">the xml file</a>.</p>
+		<?php endif; ?>
+
 	</div>
 </section>

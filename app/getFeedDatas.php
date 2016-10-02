@@ -20,6 +20,6 @@
 		require "../classes/post.class.php";
 
 		$feed = new Feed($feedDatas);
-	    echo App::render('feed', $feed);	
+	    echo App::render('feed', $feed);
 	}
 ?>

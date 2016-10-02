@@ -9,6 +9,13 @@
 			<id>awward</id>
 			<title>Awwwards</title>
 			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -18,6 +25,13 @@
 			<id>codyhouse</id>
 			<title>CodyHouse</title>
 			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -75,6 +89,13 @@
 			<id>csswinner</id>
 			<title>CSS Winner</title>
 			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -84,6 +105,13 @@
 			<id>cssday</id>
 			<title>CSS Design Awwards</title>
 			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -93,6 +121,13 @@
 			<id>webdesignernews</id>
 			<title>Webdesigner News</title>
 			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -134,6 +169,13 @@
 			<id>alsacreations</id>
 			<title>AlsaCreations</title>
 			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 
@@ -144,6 +186,13 @@
 			<id>frenchdesignindex</id>
 			<title>French Design Index</title>
 			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -153,6 +202,13 @@
 			<id>siteinspire</id>
 			<title>Site Inspire</title>
 			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -162,6 +218,13 @@
 			<id>webdesigninspiration</id>
 			<title>Web Design Inspiration</title>
 			<type>inspiration</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -171,6 +234,13 @@
 			<id>frontendfront</id>
 			<title>Front End Front</title>
 			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -180,6 +250,13 @@
 			<id>sidebar</id>
 			<title>Sidebar</title>
 			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -189,6 +266,13 @@
 			<id>modernweb</id>
 			<title>MordernWeb</title>
 			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -198,6 +282,13 @@
 			<id>webcomponents</id>
 			<title>WebComponents</title>
 			<type>news</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -207,6 +298,13 @@
 			<id>html5gamedevelopment</id>
 			<title>HTML5 Development</title>
 			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 		<item>
@@ -216,6 +314,13 @@
 			<id>developerdrive</id>
 			<title>Developer Drive</title>
 			<type>tutorials</type>
+			<methods>
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
 		</item>
 
 	</channel>
