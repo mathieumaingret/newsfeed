@@ -2,6 +2,9 @@
 
 abstract class App 
 {
+	/**
+	 * 
+	 */
 	public static function debug($datas)
 	{
 		echo '<pre>';
@@ -24,8 +27,10 @@ abstract class App
 		
 		if (file_exists('../templates/'.$template.'.tpl.php')) {
 			include '../templates/'.$template.'.tpl.php';
+			return ob_get_clean();
 		}
+
+		return '';
 			
-		echo ob_get_clean();
 	}
 }

@@ -6,7 +6,12 @@
 	$posts 	= $entity->getPosts();
 ?>
 
-<section class="feed is-visible" data-id="<?php echo $id; ?>" data-type="<?php echo $type; ?>" data-feed="<?php echo $title; ?>">
+<section 
+	class="feed is-visible" 
+	data-id="<?php echo $id; ?>" 
+	data-type="<?php echo $type; ?>" 
+	data-feed="<?php echo $title; ?>"
+>
 	<div class="row">
 	
 		<h2 class="feed-title">
@@ -19,7 +24,7 @@
 					$attributes = array(
 						'id' => $postID
 					);
-					App::render('post', $post, $attributes);
+					echo App::render('post', $post, $attributes);
 				?>
 			<?php endforeach; ?>
 		</ul>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss>
+	<channel>
+		<item>
+			<url_feed>URL of XML file</url_feed>
+			<url_website>URL of website</url_website>
+			<nb_posts>Nb of items to retrive</nb_posts>
+			<id>ID of this feed</id>
+			<title>Name of website</title>
+			<type>Taxonomy term (for application menu)</type>
+			<methods> Methods to get each post information through key objects
+				<item>channel item</item>
+				<title>title</title>
+				<date>pubDate</date>
+				<description>description</description>
+				<link>link</link>
+			</methods>
+		</item>
+	</channel>
+</rss>

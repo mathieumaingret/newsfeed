@@ -6,11 +6,12 @@
 
 	$classes = array('list-item');
 	$classes[] = ($id <= 2) ? 'l-third' : 'l-quarter';
+
 	$pictureUrl = ($picture) ? ' style="background-image: url('.$picture.');"' : '';
 ?>
+
 <li class="<?php echo trim(implode(' ', $classes)); ?>">
 	<article class="item-wrapper">
-	
 		<a href="<?php echo $link; ?>" target="_blank">
 
 			<div class="item-image">

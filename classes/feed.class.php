@@ -19,6 +19,11 @@ class Feed
 	private $nb_posts;
 
 	/**
+	* Url du site
+	*/
+	private $url_website;
+
+	/**
 	* Type de flux 
 	*/
 	private $type;
@@ -81,9 +86,11 @@ class Feed
 	{
 		if ($xml_file = simplexml_load_file($this->url_diffusion)) {
 			$items_path = explode(" ", $this->methods->item);
+
 			return (count($items_path) > 1) 
 				? $xml_file->{$items_path[0]}->{$items_path[1]} 
 				: $xml_file->{$items_path[0]};
+
 		} else {
 			return null;
 		}
@@ -108,6 +115,7 @@ class Feed
 
 	/**
 	 * Get posts
+	 * @param $offset
 	 */
 	public function getPosts($offset = 0)
 	{

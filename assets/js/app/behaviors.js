@@ -56,15 +56,13 @@
         filterAccounts: function(type, value) {
 
             if (value == '') {
-
                 this.elements.accounts.addClass('is-visible');
 
             } else {
-
                 this.elements.accounts
                     .removeClass('is-visible')
                     .filter('[data-'+type+'^="'+value+'"]')
-                        .addClass('is-visible');
+                    .addClass('is-visible');
             }
 
             this.elements.body.scrollTop(0);

@@ -5,7 +5,7 @@
 	<title>Webdesign RSS Feed</title>
 	<meta name="robots" content="noindex, nofollow" />
 	<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
@@ -54,9 +54,9 @@
 
 	<div id="progress" class="progress"></div>
 
-	<script src="assets/js/jquery-3.1.0.min.js"></script>
-	<script src="assets/js/app/init.js"></script>
-	<script src="assets/js/app/behaviors.js"></script>
+	<script defer async src="assets/js/jquery-3.1.0.min.js"></script>
+	<script defer async src="assets/js/app/init.js"></script>
+	<script defer async src="assets/js/app/behaviors.js"></script>
 	
 </body>
 </html>

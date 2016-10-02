@@ -1,7 +1,12 @@
 <?php 
-	require "../classes/utils.class.php";
-	require "../classes/feed.class.php";
-	require "../classes/post.class.php";
+
+	/**
+	 * Called to get one feed from one website
+	 */
+
+	if (!isset($_GET['feedID'])) {
+		return false;
+	}
 
 	$xml_file = simplexml_load_file('../datas/datas.xml');
 
@@ -10,7 +15,11 @@
 
 	if (isset($feedDatas)) {
 
+		require "../classes/utils.class.php";
+		require "../classes/feed.class.php";
+		require "../classes/post.class.php";
+
 		$feed = new Feed($feedDatas);
-	    App::render('feed', $feed);	
+	    echo App::render('feed', $feed);	
 	}
 ?>
